@@ -9,9 +9,9 @@ public class Controller {
         return "view_for_all_emps";
     }
 
-    @GetMapping("/employee_info")
+    @GetMapping("/hr_info")
     public String getInfoOnlyForHr(){
-        return "view_for_employee";
+        return "view_for_hr";
     }
 
     @GetMapping("/manager_info")
